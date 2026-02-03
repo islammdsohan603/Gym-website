@@ -74,14 +74,14 @@ updateSlider();
 // trainer section
 
 const trainers = [
-  { name: "Victoria Shurpik", img: "/Image/trainer-1.png" },
-  { name: "John Carter", img: "/Image/trainer-2.png" },
-  { name: "Sofia Lee", img: "/Image/trainer-3.png" },
-  { name: "Michael Roy", img: "/Image/trainer-4.png" },
-  { name: "Emma Watson", img: "/Image/trainer-5.png" },
-  { name: "David Miller", img: "/Image/trainer-6.png" },
-  { name: "Chris Evans", img: "/Image/trainer-7.png" },
-  { name: "Sarah Khan", img: "/Image/trainer-8.png" },
+  { name: "Victoria Shurpik", img: "Image/trainer-1.png" },
+  { name: "John Carter", img: "Image/trainer-2.png" },
+  { name: "Sofia Lee", img: "Image/trainer-3.png" },
+  { name: "Michael Roy", img: "Image/trainer-4.png" },
+  { name: "Emma Watson", img: "Image/trainer-5.png" },
+  { name: "David Miller", img: "Image/trainer-6.png" },
+  { name: "Chris Evans", img: "Image/trainer-7.png" },
+  { name: "Sarah Khan", img: "Image/trainer-8.png" },
 ];
 
 const trainerContainer = document.getElementById("trainerGrids");
@@ -108,5 +108,5 @@ function trainerUpdate() {
 trainerUpdate();
 
 
-// pyment mothed
+
 
