@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "github.gitAuthentication": true,
+  "github.showAvatar": true,
+  "github.copilot.chat.agent.autoFix": false,
+  "github.copilot.chat.agent.currentEditorContext.enabled": false
+}

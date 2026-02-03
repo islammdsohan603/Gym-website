@@ -1,0 +1,659 @@
+@media screen and (max-width:776px) {
+
+  nav {
+    padding: 20px 10px;
+  }
+
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 50%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.55);
+    color: #f87;
+    align-items: center;
+    justify-content: center;
+    transition: right .6s ease;
+  }
+
+  .nav-items.active {
+    right: 0;
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: flex;
+    transition: .6s ease;
+  }
+
+  .mobile-menu span {
+    display: block;
+  }
+
+  .cros-icon {
+    z-index: 1001;
+    display: none;
+    font-size: 1.4rem;
+    color: #fff;
+  }
+
+  /* যখন active হবে */
+  .mobile-menu.active span {
+    display: none;
+  }
+
+  .mobile-menu.active .cros-icon {
+    display: block;
+  }
+
+  /* .mobile-menu.active span:nth-child(1) {
+    transform: translateY(8px) rotate(40deg);
+  }
+
+  .mobile-menu.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .mobile-menu.active span:nth-child(3) {
+    transform: translateY(-8px) rotate(-40deg);
+  } */
+
+
+  /* banner-setion */
+  .banner-section {
+
+    background-position: top center;
+
+  }
+
+  .hero-about {
+    text-align: center;
+  }
+
+  .hero-about .title {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 50px;
+  }
+
+  .hero-about .hero-btn {
+    font-size: 1.1rem;
+  }
+
+  /* advanteages */
+  .advantages-banner {
+    width: 100%;
+    height: 100%;
+  }
+
+  #advantages_section {
+
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .advantages .advantages_titel {
+    font-size: 2rem;
+    text-align: center;
+    margin: 5px 0 20px 0;
+  }
+
+  .advantages-grids {
+    padding: 0 15px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .advantages-card {
+    padding: 10px;
+
+  }
+
+  .advantages-card img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .text-contant>strong {
+    font-size: 1.3rem;
+  }
+
+  .text-contant p {
+    font-size: .7rem;
+    line-height: 25px;
+    margin: 8px 0;
+  }
+
+  /* Membership */
+  #membershipSection {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .membership-contant {
+    padding: 20px 0 30px 0;
+
+  }
+
+  .membership-grids {
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
+  .memebrship-card {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .membership-card:hover {
+    transform: translateX(0px);
+  }
+
+  .memebrship-card>.serivecs .img-tag {
+    line-height: 20px;
+    font-size: .7rem;
+    margin-bottom: 10px;
+  }
+
+  /* about */
+  #about {
+
+    padding: 50px 0;
+
+
+  }
+
+  .about-section {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 30px;
+  }
+
+  .about-info {
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+  }
+
+  .about-info>h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .about-info>p {
+    flex-wrap: wrap;
+    font-size: .8rem;
+    line-height: 20px;
+  }
+
+  .slider-img {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  /* trainer */
+  #trainers {
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+  }
+
+  .trainer-contant {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .trainer-grids {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+
+  }
+
+  .trainer-grids .trainer-card {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  /* footer */
+  #footer {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer-contant {
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
+  .footer-logo>p {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+
+  .footer-text>p {
+    width: 100%;
+    margin: 0 auto;
+
+  }
+
+  .cont-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .footer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+}
+
+
+@media screen and (min-width:777px) and (max-width:1024px) {
+
+  nav {
+    padding: 20px 25px;
+  }
+
+  /* banner-setion */
+  .banner-section {
+    background-position: top center;
+  }
+
+  .hero-about {
+    text-align: center;
+  }
+
+  .hero-about .title {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .hero-about .hero-btn {
+    font-size: 1.1rem;
+  }
+
+  /* advanteages */
+  .advantages-banner {
+    width: 100%;
+    height: 100%;
+  }
+
+  #advantages_section {
+
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .advantages .advantages_titel {
+    font-size: 2rem;
+    text-align: center;
+    margin: 5px 0 20px 0;
+  }
+
+  .advantages-grids {
+    padding: 0 15px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .advantages-card {
+    padding: 10px;
+
+  }
+
+  .advantages-card img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .text-contant>strong {
+    font-size: 1.6rem;
+  }
+
+  .text-contant p {
+    font-size: 1rem;
+    line-height: 25px;
+    margin: 8px 0;
+  }
+
+  /* Membership */
+  #membershipSection {
+    width: 100%;
+    height: 100%;
+
+  }
+
+
+
+  .membership-grids {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .memebrship-card {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+
+
+  .memebrship-card>.serivecs .img-tag {
+    line-height: 20px;
+    font-size: .7rem;
+    margin-bottom: 10px;
+  }
+
+  /* about */
+  #about {
+    padding: 50px 0;
+  }
+
+  .about-section {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+  }
+
+  .about-info {
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+  }
+
+  .about-info>h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .about-info>p {
+    flex-wrap: wrap;
+    font-size: .8rem;
+    line-height: 20px;
+  }
+
+  .slider-img {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  /* trainer */
+  #trainers {
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+  }
+
+  .trainer-contant {
+    width: 100%;
+
+  }
+
+  .trainer-grids {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .trainer-grids .trainer-card {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  /* footer */
+  #footer {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer-contant {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .footer-logo>p {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+
+  .footer-text>p {
+    width: 100%;
+    margin: 0 auto;
+
+  }
+
+  .cont-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .footer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+}
+
+
+@media screen and (min-width:1025px) and (max-width:1240px) {
+
+  nav {
+    padding: 20px 25px;
+  }
+
+  /* banner-setion */
+  .banner-section {
+    background-position: top center;
+  }
+
+  .hero-about {
+    text-align: center;
+  }
+
+  .hero-about .title {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .hero-about .hero-btn {
+    font-size: 1.1rem;
+  }
+
+  /* advanteages */
+  .advantages-banner {
+    width: 100%;
+    height: 100%;
+  }
+
+  #advantages_section {
+
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .advantages .advantages_titel {
+    font-size: 2rem;
+    text-align: center;
+    margin: 5px 0 20px 0;
+  }
+
+  .advantages-grids {
+    padding: 0 15px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .advantages-card {
+    padding: 10px;
+
+  }
+
+  .advantages-card img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .text-contant>strong {
+    font-size: 1.6rem;
+  }
+
+  .text-contant p {
+    font-size: 1rem;
+    line-height: 25px;
+    margin: 8px 0;
+  }
+
+  /* Membership */
+  #membershipSection {
+    width: 100%;
+    height: 100%;
+
+  }
+
+
+
+  .membership-grids {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 30px;
+  }
+
+  .memebrship-card {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+  }
+
+
+
+  .memebrship-card>.serivecs .img-tag {
+    line-height: 20px;
+    font-size: .7rem;
+    margin-bottom: 10px;
+  }
+
+  /* about */
+  #about {
+    padding: 50px 0;
+  }
+
+  .about-section {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+  }
+
+  .about-info {
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+  }
+
+  .about-info>h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .about-info>p {
+    flex-wrap: wrap;
+    font-size: .8rem;
+    line-height: 20px;
+  }
+
+  .slider-img {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  /* trainer */
+  #trainers {
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+  }
+
+  .trainer-contant {
+    width: 100%;
+
+  }
+
+  .trainer-grids {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+
+  .trainer-grids .trainer-card {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  /* footer */
+  #footer {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer-contant {
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+
+  .footer-logo>p {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+
+  .footer-text>p {
+    width: 100%;
+    margin: 0 auto;
+
+  }
+
+  .cont-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .footer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+}
